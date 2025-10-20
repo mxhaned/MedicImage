@@ -35,13 +35,6 @@ venv.bak/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# PyTorch models (large files)
-*.pt
-*.pth
-*.h5
-*.joblib
-*.pkl
-*.model
 
 # Jupyter Notebook
 .ipynb_checkpoints
