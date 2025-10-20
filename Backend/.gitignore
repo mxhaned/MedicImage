@@ -1,0 +1,39 @@
+# Backend-specific ignores
+
+# Dependencies
+node_modules/
+venv/
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Media and static files (if stored locally)
+media/
+static/collected/ 
